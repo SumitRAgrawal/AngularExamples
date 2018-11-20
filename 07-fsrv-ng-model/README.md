@@ -1,5 +1,5 @@
 # FsrvNgModel
-View on [StackBlitz](https://stackblitz.com/github/SumitRAgrawal/AngularExamples/tree/master/06-fsrv-event-binding)
+View on [StackBlitz](https://stackblitz.com/github/SumitRAgrawal/AngularExamples/tree/master/07-fsrv-ng-model)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
