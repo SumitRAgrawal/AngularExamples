@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
   <div>
     This is parent component
+    <app-child></app-child>
   </div>
   `
 })
