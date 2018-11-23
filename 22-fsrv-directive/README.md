@@ -1,5 +1,5 @@
 # FsrvDirective
-View on [StackBlitz](https://stackblitz.com/github/SumitRAgrawal/AngularExamples/tree/master/17-fsrv-template-ref-child)
+View on [StackBlitz](https://stackblitz.com/github/SumitRAgrawal/AngularExamples/tree/master/22-fsrv-directive)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
