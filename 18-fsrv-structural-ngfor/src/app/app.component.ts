@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div>
       <div *ngFor="let item of data">
-      {{item | json }}
+      item
       </div>
     </div>
   `
