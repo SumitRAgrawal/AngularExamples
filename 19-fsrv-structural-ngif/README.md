@@ -1,4 +1,5 @@
 # FsrvStructuralNgif
+View on [StackBlitz](https://stackblitz.com/github/SumitRAgrawal/AngularExamples/tree/master/19-fsrv-structural-ngif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
