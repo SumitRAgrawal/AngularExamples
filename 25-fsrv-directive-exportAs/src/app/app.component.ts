@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <div>
+  <input type="text" appToggle #toggleRef="toggle">
+  <button (click)="toggleRef.handleToggle()">Toggler</button>
+  </div>
+  `
 })
-export class AppComponent {
-  title = 'app';
+
+export class AppComponent implements OnInit {
+  constructor() { }
+
+  ngOnInit() { }
 }
