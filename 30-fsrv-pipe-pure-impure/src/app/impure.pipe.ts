@@ -7,7 +7,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class ImpurePipe implements PipeTransform {
 
   transform(value: any, args?: any): any {
-    console.log(`from inpure pipe : ${value}`);
+    console.log(`from impure pipe : ${value}`);
     return value;
   }
 
