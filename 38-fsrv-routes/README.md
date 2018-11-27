@@ -1,4 +1,5 @@
 # FsrvRoutes
+View on [StackBlitz](https://stackblitz.com/github/SumitRAgrawal/AngularExamples/tree/master/38-fsrv-routes)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
