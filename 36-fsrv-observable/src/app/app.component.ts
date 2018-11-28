@@ -1,6 +1,4 @@
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { from, Subscription } from 'rxjs';
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -10,24 +8,7 @@ import { from, Subscription } from 'rxjs';
   </div>
   `
 })
-
-export class AppComponent implements OnInit, OnDestroy {
-  data = [1, 2 , 3 ];
-  data$ = from(this.data);
-  subscription: Subscription;
+export class AppComponent implements OnInit {
   constructor() { }
-
-  ngOnInit() {
-
-    this.subscription = this.data$
-      .subscribe(
-        res => console.log(res),
-        error => console.log(error),
-        () => console.log('completed'));
-   }
-
-   ngOnDestroy() {
-     this.subscription.unsubscribe();
-   }
-
+  ngOnInit() {}
 }
